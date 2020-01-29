@@ -47,7 +47,7 @@ class Narrative extends React.Component {
 
         this.props.dispatch(changePage({
           // path: this.props.blocks[blockIdx].dataset, // not yet implemented properly
-          dontChangeDataset: true,
+          changeDataset: false,
           query: queryString.parse(this.props.blocks[idx].query),
           queryToDisplay: {n: idx},
           push: true
