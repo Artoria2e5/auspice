@@ -173,12 +173,18 @@ export const MobileBannerTop = styled.nav`
   top: 0;
   height: ${(props) => props.height}px;
   background-color: #E67F2C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 export const MobileBannerBottom = styled.nav`
   ${baseBannerStyles}
   bottom: 0;
   height: ${(props) => props.height}px;
   background-color: #65B0A4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 export const MobileContentContainer = styled.div`
   min-height: ${(props) => props.height}px;
