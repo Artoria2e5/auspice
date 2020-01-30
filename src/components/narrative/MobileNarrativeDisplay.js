@@ -143,7 +143,7 @@ class MobileNarrativeDisplay extends React.Component {
         <this.PreviousButton>
           Previous
         </this.PreviousButton>
-        <MobileContentContainer height={this.state.contentHeight+this.statebannerHeight}>
+        <MobileContentContainer height={this.state.contentHeight+this.state.bannerHeight}>
           {this.renderProgress()}
           <EndOfNarrative>
             <h1>End of Narrative</h1>
