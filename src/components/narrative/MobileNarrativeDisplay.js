@@ -183,7 +183,7 @@ class MobileNarrativeDisplay extends React.Component {
   renderMiddleOfNarrative() {
     return (
       <>
-        <this.PreviousButton>
+        <this.PreviousButton aria-labelledby="nav1">
           Previous
         </this.PreviousButton>
         <MobileContentContainer height={this.state.contentHeight}>
@@ -192,7 +192,7 @@ class MobileNarrativeDisplay extends React.Component {
           {this.renderVizCards(this.state.contentHeight)}
           {this.renderMainMarkdown()}
         </MobileContentContainer>
-        <this.NextButton>
+        <this.NextButton aria-labelledby="nav2">
           Next
         </this.NextButton>
       </>
