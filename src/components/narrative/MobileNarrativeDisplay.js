@@ -89,9 +89,7 @@ class MobileNarrativeDisplay extends React.Component {
     }
     const block = this.props.blocks[this.props.currentInFocusBlockIdx];
     return (
-      <div
-        id={`MobileNarrativeBlock_${this.props.currentInFocusBlockIdx}`}
-        key={block.__html}
+      <div id="MobileNarrativeBlock"
         style={{
           padding: "10px 20px",
           height: "inherit",
